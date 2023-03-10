@@ -6,6 +6,7 @@ def alg(line):
         line = line.replace('02', '110', 1)
     return line
 
+
 i = '022122212221212121212121212121212121212111111111121212121210'
 print(i.count('1'), i.count('2'))
 t = alg(i)
