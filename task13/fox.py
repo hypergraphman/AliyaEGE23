@@ -1,5 +1,5 @@
 s = "АБ БД ВАБ ГАВ ДВЖЕ ЕЖИЛК ЖГВ ИЛД КЖ ЛК"
-g = {c[0]:c[1:] for c in s.split()}
+g = {c[0]: c[1:] for c in s.split()}
 
 
 def f(v, p):
